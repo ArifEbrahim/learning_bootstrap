@@ -12,7 +12,7 @@
 <body>
 
 <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <!-- navbar-expand makes it resopnsive according to a break point to turn into a hamburger menu  -->
     <div class='container'>
       <a href="#" class="navbar-brand">Frontend Bootcamp</a>
@@ -177,6 +177,71 @@
         </div>
         <div class="col-md">
           <img src="./img/react.svg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- question acordion -->
+
+  <section class="p-5" id="questions">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+              <!-- data-bs-target must match the div id below to work -->
+              Where exactly are you located?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vel! Pariatur eos cumque numquam, perferendis doloremque expedita nostrum dignissimos cupiditate error! Deleniti sed rem, voluptate iure temporibus nostrum, ipsa molestiae deserunt ex qui fugiat modi reprehenderit placeat nihil, nesciunt doloribus?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+              <!-- data-bs-target must match the div id below to work -->
+              How much does it cost to attend?
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vel! Pariatur eos cumque numquam, perferendis doloremque expedita nostrum dignissimos cupiditate error! Deleniti sed rem, voluptate iure temporibus nostrum, ipsa molestiae deserunt ex qui fugiat modi reprehenderit placeat nihil, nesciunt doloribus?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+              <!-- data-bs-target must match the div id below to work -->
+              What do I need to know?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vel! Pariatur eos cumque numquam, perferendis doloremque expedita nostrum dignissimos cupiditate error! Deleniti sed rem, voluptate iure temporibus nostrum, ipsa molestiae deserunt ex qui fugiat modi reprehenderit placeat nihil, nesciunt doloribus?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+              <!-- data-bs-target must match the div id below to work -->
+              Do you help me find a job?
+            </button>
+          </h2>
+          <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vel! Pariatur eos cumque numquam, perferendis doloremque expedita nostrum dignissimos cupiditate error! Deleniti sed rem, voluptate iure temporibus nostrum, ipsa molestiae deserunt ex qui fugiat modi reprehenderit placeat nihil, nesciunt doloribus?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+              <!-- data-bs-target must match the div id below to work -->
+              How do I sign up?
+            </button>
+          </h2>
+          <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vel! Pariatur eos cumque numquam, perferendis doloremque expedita nostrum dignissimos cupiditate error! Deleniti sed rem, voluptate iure temporibus nostrum, ipsa molestiae deserunt ex qui fugiat modi reprehenderit placeat nihil, nesciunt doloribus?</div>
+          </div>
         </div>
       </div>
     </div>
